@@ -1,83 +1,55 @@
-# 波尼音乐
+# Frank Music
 ![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/app/src/main/res/drawable-xxhdpi/ic_launcher.png)
 
-## 系列文章
-- [Android开源在线音乐播放器——波尼音乐](https://juejin.im/post/5c373a32e51d4551cc6df6db)
-- [Android开源音乐播放器之播放器基本功能](https://juejin.im/post/5c373a32e51d45521315fc50)
-- [Android开源音乐播放器之高仿云音乐黑胶唱片](https://juejin.im/post/5c373a336fb9a04a016488e8)
-- [Android开源音乐播放器之自动滚动歌词](https://juejin.im/post/5c373a336fb9a049f43b85de)
-- [Android开源音乐播放器之在线音乐列表自动加载更多](https://juejin.im/post/5c373a336fb9a049b82aaaaf)
+## Articles
+- [Android Open Source Music Online](https://juejin.im/post/5c373a32e51d4551cc6df6db)
+- [Android Player Open Source Music Player](https://juejin.im/post/5c373a32e51d45521315fc50)
+- [Android App Open Source Music Player](https://juejin.im/post/5c373a336fb9a04a016488e8)
+- [Android](https://juejin.im/post/5c373a336fb9a049f43b85de)
+- [Android](https://juejin.im/post/5c373a336fb9a049b82aaaaf)
 
-## 前言
-毕业设计做的项目，答辩完了，就共享出来。
+## Preface
+School design。
 
-- 项目地址：https://github.com/wangchenyan/ponymusic
-- 有问题请提Issues
-- 如果喜欢，欢迎Star！
+- Project Address：https://github.com/ifeoluwa-frank/work
 
-## 简介
-波尼音乐是一款开源Android在线音乐播放器。
-- 播放本地音乐与在线音乐
-- 在线音乐排行榜，如热歌榜、新歌榜等
-- 高仿云音乐的黑胶唱片专辑封面
-- 歌词显示，自动搜索歌词
-- 编辑歌曲信息
-- 夜间模式
-- 定时关闭
+## Introduction
+Pony music is an online open source Android online Music player Able to play both online and local music
+- Online music chart, such as hot songs, new songs, etc.
+- High imitation cloud songs
+- Album covers
+- Lyric display, automatic search lyrics
+- Edit song information
+- Night mode
+- Timing off
 
-## 更新说明
+## Update Notes
 `v 1.3.0`
-- 新增歌词支持上下拖动
-- 新增支持分屏模式
-- 新增本地歌曲支持按大小和时长过滤
-- 新增下载的歌曲文件自动添加专辑封面
-- 新增编辑歌曲信息
-- 新增5.0以上系统支持联动系统媒体中心，锁屏显示播放信息
-- 修复已知bug
+- New lyrics supported
+- New support for split screen
+- Added support for local song size and duration filtering
+- Automatic add album cover
+- New song information
 
-`v 1.2.3`
-- 新增通知栏播放控制
-- 修复魅族手机扫描不到音乐的问题
-- 修复已知bug
-
-`v 1.2.0`
-- 修复在线音乐无法加载的问题
-- 修复弱网时播放网络歌曲导致ANR的问题
-- 修复每日启动图片无法更新的问题
-- 下载在线歌曲可以显示专辑封面了
-- 修复已知bug
-
-`v 1.1.0`
-- 支持 Android 6.0 运行时权限
-- 修复已知bug
 
 `v 1.0.0`
 - First Release
 
-## 下载地址
-### 1.3.1
-https://raw.githubusercontent.com/wangchenyan/ponymusic/master/release/ponymusic.apk
-
-扫码下载
-
-![二维码](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/release/qrcode.png)
-
 ## TODO
-- [x] 在线音乐可以免下载加入我的音乐列表
-- [ ] 在线音乐自动缓存
-- [x] 编辑音乐信息
+- [x] Online music can be downloaded for free
+- [ ] Online music automatic
+- [x] Edit music information
 
 ## 项目
-### 公开API
-- 在线音乐：[百度音乐](http://mrasong.com/a/baidu-mp3-api-full)
-- 天气数据：[高德地图](http://lbs.amap.com/)
+### API
+- Online Music：[Baidu music](http://mrasong.com/a/baidu-mp3-api-full)
+- mp3-api-full：(http://lbs.amap.com/)
 
-### 开源技术
+### Project
 - [okhttp-utils](https://github.com/hongyangAndroid/okhttp-utils)
 - [Glide](https://github.com/bumptech/glide)
 
-### 关键代码
-黑胶唱片专辑封面绘制流程
+### Key code
 ```
 @Override
 protected void onDraw(Canvas canvas) {
@@ -151,21 +123,14 @@ protected void onDraw(Canvas canvas) {
 }
 ```
 
-## 截图
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_01.jpg)
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_02.jpg)
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_03.jpg)
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_04.jpg)
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_05.jpg)
-![](https://raw.githubusercontent.com/wangchenyan/ponymusic/master/art/screenshot_06.jpg)
 
-## 关于作者
-掘金：https://juejin.im/user/2313028193754168<br>
-微博：https://weibo.com/wangchenyan1993
+## About the author
+Nuggets：https://juejin.im/user/2313028193754168<br>
+Weibo：https://weibo.com/wangchenyan1993
 
 ## License
 
-    Copyright 2016 wangchenyan
+    Copyright 2016 frankifeoluwa
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
